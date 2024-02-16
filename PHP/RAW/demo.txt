@@ -1,1 +1,1 @@
-We are learning PHP and Laravel and PHP
+We are learning PHP and Laravel and PHP and Laravel
