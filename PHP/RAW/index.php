@@ -1,16 +1,16 @@
 <?php
 
 
-$a = 10;
-$b = 23;
-$c = 26;
+// $a = 10;
+// $b = 23;
+// $c = 26;
 
-if($a % 2 == 22){
-    echo "Even ba Jor Sonkha";
+// if($a % 2 == 22){
+//     echo "Even ba Jor Sonkha";
 
-}else{
-    echo " Odd ba Bijor Sonkha";
-}
+// }else{
+//     echo " Odd ba Bijor Sonkha";
+// }
 
 // $raju = 12;
 // $rakib = 13;
@@ -29,3 +29,12 @@ if($a % 2 == 22){
 
 // Let's Learn Ternary Operator
 
+
+//Function Arguments 
+function someNames($name, $birth_year){
+    echo "$name Refsnes. Born in $birth_year <br>";
+
+}
+
+
+someNames("Raju","2002");
