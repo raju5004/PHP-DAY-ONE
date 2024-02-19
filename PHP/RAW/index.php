@@ -31,10 +31,62 @@
 
 
 //Function Arguments 
-function someNames($name, $birth_year){
-    echo "$name Refsnes. Born in $birth_year <br>";
+// function someNames($name, $birth_year, $place){
+//     echo "$name  Born in $birth_year $place <br>";
 
-}
+// }
 
 
-someNames("Raju","2002");
+// someNames("Raju","2002", "Dhaka");
+
+//Function PHP Default Argument Value
+
+// function defaultArg($def = 50){
+//     echo "$def <br>";
+// }
+
+// defaultArg();
+// defaultArg(250);
+
+//PHP Functions - Returning values
+
+// function funName($x, $y){
+//     $z = $x + $y;
+//     return $z;
+// }
+
+// echo "5 + 11 = " . funName(5, 11) . "<br>";
+
+// function funName($hello, $hi){
+//     $how = $hello + $hi;
+//     return $how;
+// }
+
+// echo "34 + 34 = " . funName(34,34);
+
+
+//Passing Arguments by Reference
+
+// function passArg( &$value){
+//     $value += 5;
+
+// }
+
+// $num = 4;
+// passArg($num);
+// echo $num;
+
+
+// function sumMyNumbers(...$x){
+//     $n = 0;
+//     $len = count($x);
+//     for ($i = 0; $i < $len; $i++) {
+//         $n += $x[$i];}
+
+//         return $n;
+// }
+
+
+
+// $a = sumMyNumbers(5,2,6,2,7,7);
+// echo $a;
