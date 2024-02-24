@@ -148,3 +148,14 @@
 // funName();
 
 
+// foreach loop by arrays
+
+// $raju = array("red", "blue", "green");
+
+// foreach ($raju as $say){
+//     echo "$say <br>";
+// }
+
+// foreach ($raju as $say){
+//     echo "$say <br>";
+// }
