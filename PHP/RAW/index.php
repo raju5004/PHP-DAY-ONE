@@ -90,3 +90,61 @@
 
 // $a = sumMyNumbers(5,2,6,2,7,7);
 // echo $a;
+
+// function myFamily($lastname, ...$firstname){
+//     $txt = "";
+//     $len = count($firstname);
+//     for ($i = 0; $i < $len; $i++) {
+//         $txt .= $firstname[$i]." Hi".$lastname;
+//     }
+//     return $txt;
+// }
+
+// $a = myFamily("Raju","Rakib");
+// echo $a;
+
+// User-Defined Function
+//Example #1 Pseudo code to demonstrate function uses
+
+
+// $makefoo = true;
+
+// smt2();
+
+// if ($makefoo) {
+//     function smt(){
+//         echo "I dont exist until program execution reaches me .";
+//     }
+// }
+
+// if ($makefoo) {
+//     function smt3(){
+//         echo "Iam smt3";
+//     }
+// }
+
+// if ($makefoo) {
+//     function smt4(){
+//         echo "Iam smt4";
+//     }
+// }
+
+// if ($makefoo) smt(); smt3(); smt4();
+// function smt2(){
+//     echo "I exist immidiately upon program start";
+// }
+
+// 
+
+
+// function funName(){
+//     if( 2>0){
+//         echo "Hello";
+//     }else{
+//         echo "Mile nai";
+//     }
+// }
+
+// funName();
+
+
