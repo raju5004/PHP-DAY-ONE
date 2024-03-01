@@ -159,3 +159,20 @@
 // foreach ($raju as $say){
 //     echo "$say <br>";
 // }
+
+
+$str = "Noman and Nonam";
+$pattern = "/noman/i";
+echo preg_match($pattern, $str); 
+
+
+
+
+
+function sayHello() {
+    echo "Hellow world";
+
+
+}
+
+sayHello();
