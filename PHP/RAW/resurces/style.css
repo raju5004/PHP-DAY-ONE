@@ -1,0 +1,16 @@
+
+
+button {
+    background-color: rgb(255, 29, 29);
+    padding: 5px 12px;
+    color: #fff;
+    border: none;
+    margin-top: 25px;
+}
+
+form {
+    background: rgb(244, 234, 234);
+    padding: 33px;
+    display: inline-block;
+    text-align: left;
+}
