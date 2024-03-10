@@ -2,7 +2,6 @@
 
 session_start();
 
-$_SESSION["name"] = "raju";
 
 
 
@@ -20,9 +19,12 @@ $_SESSION["name"] = "raju";
 // echo "Today is  " . date("1") . "<br>";
 
 // include"./footer.php";
-$err = "It's showing Error";
+$err = "It's showing Error\n";
 
 echo $err;
+
+
+echo "$var \n";
 
 ?>
 
@@ -31,10 +33,11 @@ echo $err;
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hello</title>
 </head>
 <body>
     <h3>Dashboard Page</h3>
+
 
     
 </body>
