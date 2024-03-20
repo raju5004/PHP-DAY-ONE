@@ -19,12 +19,7 @@ session_start();
 // echo "Today is  " . date("1") . "<br>";
 
 // include"./footer.php";
-$err = "It's showing Error\n";
 
-echo $err;
-
-
-echo "$var \n";
 
 ?>
 
